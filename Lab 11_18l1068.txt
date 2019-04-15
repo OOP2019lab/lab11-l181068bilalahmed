@@ -1,0 +1,17 @@
+Answer 6
+(a)
+So that the members are accessed only through getters/setters, and are controlled by us. This way the the derived classes do not get direct access to the private members.
+
+(b & c)
+
+cout << f_name() << " " << l_name() << " is " << age << " years old, his cgpa is " << cgpa << endl;
+
+Private members f_name, l_name cannot be directly accessed by the class student, therefore, the function can be called using getters for the variables, this way the function will run smoothly.
+
+Answer 8
+
+The derived classes are inheriting the public functions/ members as protected functions and the private functions/ members remain the same.
+
+Answer 9
+
+The derived classes are inheriting the public and protected functions/ members as private functions/ members, so everthing is hidden.
